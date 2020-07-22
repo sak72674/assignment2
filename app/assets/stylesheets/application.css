@@ -13,3 +13,141 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+
+a:visited {
+	color: #666;
+}
+
+.top-visual {
+	margin: 30px;
+}
+
+.top-headline {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+.top-text {
+	display: block;
+	line-height: 40px;
+	font-size: 12px;
+	padding: 0 30px;
+}
+
+.top-link {
+	color: gray;
+	font-size: 12px;
+	padding: 0 30px;
+	line-height: 40px;
+}
+
+.index-visual {
+	margin: 30px;
+}
+
+.index-headline {
+	margin: 20px 0;
+}
+
+th {
+	text-align: center;
+}
+
+.index-list-item {
+	padding: 0 15px;
+	color: #333;
+}
+
+.list-item-btn {
+	padding: 0 5px;
+	color: #333;
+}
+
+.list-item-btn:active {
+	background-color: #000;
+	color: white;
+}
+
+.form-item {
+	display: block;
+	font-size: 12px;
+	color: #333;
+	margin-top: 10px;
+}
+
+.item-box {
+	width: 150px;
+}
+
+.submit {
+	display: block;
+	margin: 10px 0;
+}
+
+.alert {
+	border:solid 2px red;
+	width: 450px;
+	height: 150px;
+	background-color: #f0f0f0;
+}
+
+.alert-text {
+	border:solid 2px red;
+	background-color: red;
+	color: white;
+	font-size: 12px;
+	padding-left: 5px;
+}
+
+ul {
+	margin-top: 40px;
+}
+
+li {
+	list-style: square;
+}
+
+.alert-messages {
+	margin-left: 100px;
+	font-size: 12px;
+}
+
+.field_with_errors {
+	padding: 2px;
+	background-color: red;
+	display: table;
+}
+
+.show-visual {
+	margin: 30px;
+}
+
+.flash {
+	color: green;
+	margin: 30px;
+}
+
+.show-item {
+	margin: 30px;
+
+}
+
+.btn {
+	color: #333;
+}
+
+.btn:hover {
+	background-color: #000;
+	color: white;
+}
+
+.edit-visual {
+	margin: 30px;
+}
